@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((((BREATH*LOVE))*5+4))
+printenv LOVE:BREATH | echo $((((BREATH*LOVE))*5+4))
